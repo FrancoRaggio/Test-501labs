@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="app">
     <Card
       title="titulo configurable"
       body="lorem ipsum dolor sit amet
@@ -23,12 +23,9 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
+.app {
   display: flex;
   justify-content: center;
-  font-family: Arial;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   margin-top: 60px;
 }
