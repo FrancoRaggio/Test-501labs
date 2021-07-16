@@ -5,7 +5,7 @@
       body="lorem ipsum dolor sit amet
     consectetur adipiscing, elit aptent commodo tempus gravida, eleifend mollis
     condimentum neque sollicitudin.Elementum magnis lacinia diam eget facilisi
-    consequat ullamcorper."
+    consequat ullamcorper,litora praesent, semper."
     >
     </Card>
   </div>

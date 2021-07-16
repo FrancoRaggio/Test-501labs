@@ -27,24 +27,30 @@ export default {
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
   border: 1px solid #cfd0d4;
   border-radius: 6px;
+
   .card-title {
+    width: 100%;
+    height: 30%;
+    padding-left: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-    h2 {
-      margin: 0;
-      padding: 0;
-    }
   }
+
   .card-body {
-    height: 240px;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
     font-size: 14px;
     background-color: #cccccc;
-    p {
-      margin: 10px 0px 0px;
-      padding: 0px 5px;
-    }
+    white-space: wrap;
+    overflow: hidden;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
   }
 }
 </style>
